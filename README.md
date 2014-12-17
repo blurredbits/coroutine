@@ -1,31 +1,8 @@
 # Coroutine
 
-TODO: Write a gem description
+Who do I have to have lunch with today?
 
-## Installation
-
-Add this line to your application's Gemfile:
-
-```ruby
 gem 'coroutine'
-```
 
-And then execute:
-
-    $ bundle
-
-Or install it yourself as:
-
-    $ gem install coroutine
-
-## Usage
-
-TODO: Write usage instructions here
-
-## Contributing
-
-1. Fork it ( https://github.com/[my-github-username]/coroutine/fork )
-2. Create your feature branch (`git checkout -b my-new-feature`)
-3. Commit your changes (`git commit -am 'Add some feature'`)
-4. Push to the branch (`git push origin my-new-feature`)
-5. Create a new Pull Request
+my_array = Coroutine.who_do_i_have_to_have_lunch_with_today
+puts my_array.inspect
