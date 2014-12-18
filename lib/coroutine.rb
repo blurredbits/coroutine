@@ -1,4 +1,4 @@
-#require "coroutine/version"
+require "coroutine/version"
 
 module Coroutine
 
